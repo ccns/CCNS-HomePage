@@ -1,0 +1,309 @@
+body {
+	background-color: white;
+	color: white;
+	margin: 0;
+}
+
+body div#eventBackground {
+	background-color: white;
+	padding-top: 50px;
+	padding-bottom: 25px;
+	background: url("images/eventBackground.jpg") no-repeat center;
+	background-size: cover;
+	height: 90vh;
+}
+
+body div#eventBackground p.appNameEng {
+	font-family: "TypoGraphica";
+	font-size: 125px;
+	text-align: center;
+	color: white;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	letter-spacing: 5px;
+	line-height: 125px;
+	text-shadow: 4px 4px black;
+}
+
+body div#eventBackground p.appNameEng span.redPie {
+	color: #ff4a5f;
+}
+
+body div#eventBackground p.appIntro {
+	font-size: 20px;
+	text-align: center;
+	font-family: Menlo;
+	font-style: italic;
+	margin-bottom: 50px;
+	text-shadow: 1px 1px black;
+	color: #cccccc;
+}
+
+body div#eventBackground form {
+	margin: 20px;
+	position: relative;
+}
+
+body div#eventBackground form div.eventKeyword {
+	margin-bottom: 25px;
+}
+
+body div#eventBackground form div.eventKeyword input {
+	font-size: 30px;
+	padding: 30px;
+	display: block;
+	margin: auto;
+	width: 60%;
+	background-color: #1e1f1c;
+	font-size: 40px;
+	padding: 15px;
+	color: #e5c200;
+	letter-spacing: 2px;
+	font-family: "Oswald";
+}
+
+body div#eventBackground form div.eventKeyword ::-webkit-input-placeholder {
+	color: #8eec00;
+	text-align: center;
+}
+
+body div#eventBackground form div.hostKeyword input {
+	font-size: 30px;
+	padding: 30px;
+	display: block;
+	margin: auto;
+	width: 60%;
+	background-color: #1e1f1c;
+	font-size: 40px;
+	padding: 15px;
+	color: #e5c200;
+	letter-spacing: 2px;
+	font-family: "Monaco";
+}
+
+body div#eventBackground form div.hostKeyword ::-webkit-input-placeholder {
+	color: #8eec00;
+	text-align: center;
+}
+
+body div#eventBackground form div.positionCheck {
+	text-align: center;
+	margin: 0;
+	border: 2px solid red;
+	display: none;
+}
+
+body div#eventBackground form div.positionCheck p {
+	font-family: "Monaco";
+	display: inline-block;
+	font-size: 30px;
+	color: #0bdcf4;
+	border: 2px solid red;
+}
+
+body div#eventBackground form div.positionCheck input {
+	margin: 10px;
+}
+
+body div#eventBackground form div.typeCheck {
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.7);
+	border-radius: 10px;
+	display: inline-block;
+	margin: 0 auto;
+	margin-top: 50px;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+
+body div#eventBackground form div.typeCheck p#checkTitle {
+	font-family: "Monaco";
+	display: inline-block;
+	font-size: 30px;
+	color: #bb6cff;
+}
+
+body div#eventBackground form div.typeCheck div {
+	display: inline-block;
+	margin-right: 15px;
+	padding: 0;
+	border: 2px solid #222222;
+	padding: 2.5px 10px;
+	border-radius: 10px;
+	margin-top: 15px;
+	background-color: rgba(70, 70, 70, 0.9);
+}
+
+body div#eventBackground form div.typeCheck div p {
+	display: inline-block;
+	font-size: 30px;
+	color: white;
+	font-family: "Monaco";
+	margin: 0;
+}
+
+body div#eventBackground form div.typeCheck div input {
+	display: inline-block;
+	margin: 10px;
+}
+
+body div#eventBackground form div.timeCheck {
+	text-align: center;
+	margin-top: 0px;
+	display: none;
+}
+
+body div#eventBackground form div.timeCheck p {
+	font-family: "Monaco";
+	display: inline-block;
+	font-size: 30px;
+	color: #e5c200;
+}
+
+body div#eventBackground form div.timeCheck input {
+	margin: 10px;
+	height: 30px;
+	margin-top: -30px;
+	font-size: 25px;
+	padding: 5px;
+}
+
+body div#eventBackground form div.feeCheck {
+	text-align: center;
+	margin-top: -25px;
+	display: none;
+}
+
+body div#eventBackground form div.feeCheck p {
+	font-family: "Monaco";
+	display: inline-block;
+	font-size: 30px;
+	color: #ff0068;
+}
+
+body div#eventBackground form div.feeCheck input {
+	margin: 10px;
+	height: 30px;
+	margin-top: -30px;
+	font-size: 25px;
+	padding: 5px;
+}
+
+body div#eventBackground form div.attendCheck {
+	text-align: center;
+	margin-top: -25px;
+	display: none;
+}
+
+body div#eventBackground form div.attendCheck p {
+	font-family: "Monaco";
+	display: inline-block;
+	font-size: 30px;
+	color: #8eec00;
+}
+
+body div#eventBackground form div.attendCheck input {
+	margin: 10px;
+	height: 30px;
+	margin-top: -30px;
+	font-size: 25px;
+	padding: 5px;
+}
+
+body div#eventBackground form button#submitBtn {
+	font-size: 30px;
+	padding: 15px 30px;
+	display: block;
+	margin: auto;
+	margin-top: 25px;
+	letter-spacing: 2px;
+	text-align: center;
+	font-family: Menlo;
+	font-style: italic;
+	text-shadow: 1px 1px black;
+	border-radius: 5px;
+	color: grey;
+	display: none;
+}
+
+div.resultDiv {
+	margin: 25px;
+	padding: 25px;
+	font-family: "Monaco";
+	font-size: 18px;
+	background-color: #252620;
+	border-radius: 15px;
+	display: flex;
+}
+
+div.resultDiv div.eventIntroBox {
+	width: 45%;
+	margin-right: 4%;
+}
+
+div.resultDiv div.eventIntroBox p.title {
+	font-size: 30px;
+	color: #64c025;
+}
+
+div.resultDiv div.eventIntroBox p.location {
+	display: none;
+}
+
+div.resultDiv div.eventIntroBox p.date {
+	display: none;
+}
+
+div.resultDiv div.eventIntroBox p.type {
+	color: #c07525;
+}
+
+div.resultDiv div.eventIntroBox p.host {
+	display: none;
+}
+
+div.resultDiv div.eventIntroBox p.fee {
+	display: none;
+}
+
+div.resultDiv div.eventIntroBox p.number_of_people {
+	display: none;
+}
+
+div.resultDiv div.eventIntroBox p.source {
+	display: none;
+}
+
+div.resultDiv div.eventIntroBox a.url {
+	text-decoration: none;
+	display: inline-block;
+	background-color: red;
+	color: white;
+	margin-left: 40%;
+	padding: 10px 20px;
+	font-size: 25px;
+	border-radius: 5px;
+	letter-spacing: 2px;
+}
+
+div.resultDiv img {
+	width: 50%;
+}
+
+div.githubBox {
+	position: absolute;
+	top: 20px;
+	right: 50px;
+}
+
+div.githubBox a {
+	text-decoration: none;
+	font-family: Monaco;
+	font-size: 30px;
+	color: cyan;
+}
+
+.notShow {
+	display: none !important;
+}

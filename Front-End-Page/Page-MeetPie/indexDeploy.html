@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <title>MeetPie - 資訊活動通</title>
+
+        <link rel="stylesheet" href="Page-MeetPie/style.css">
+
+    </head>
+
+    <body>
+
+        <div id="eventBackground">
+            <p class="appNameEng">Meet<span class="redPie">Pie</span></p>
+            <p class="appIntro">Find your Meetup, Easy as Pie ! - 資訊活動搜尋器</p>
+
+            <form id="searchForm" action="" method="post">
+                <div class="eventKeyword">
+                    <input type="text" id="eventKeyword" placeholder="「關鍵字」">
+                </div>
+
+                <div class="hostKeyword">
+                    <input type="text" id="hostKeyword" placeholder="「主辦單位」">
+                </div>
+
+                <div class="positionCheck">
+                    <p>地點：</p>
+                    <p>北</p>
+                    <input type="checkbox" id="north">
+                    <p>中</p>
+                    <input type="checkbox" id="medium">
+                    <p>南</p>
+                    <input type="checkbox" id="south">
+                    <p>其他</p>
+                    <input type="checkbox" id="other">
+                </div>
+
+                <div class="typeCheck">
+                    <div>
+                        <p>前端</p>
+                        <input type="checkbox" id="type1">
+                    </div>
+                    <div>
+                        <p>後端</p>
+                        <input type="checkbox" id="type2">
+                    </div>
+                    <div class="notShow">
+                        <p>影像處理</p>
+                        <input type="checkbox" id="type3">
+                    </div>
+                    <div>
+                        <p>Conf</p>
+                        <input type="checkbox" id="type4">
+                    </div>
+                    <div>
+                        <p>社團</p>
+                        <input type="checkbox" id="type5">
+                    </div>
+                    <div class="notShow">
+                        <p>軟體</p>
+                        <input type="checkbox" id="type6">
+                    </div>
+                    <div>
+                        <p>程式語言</p>
+                        <input type="checkbox" id="type7">
+                    </div>
+                    <div>
+                        <p>app</p>
+                        <input type="checkbox" id="type8">
+                    </div>
+                    <div>
+                        <p>工作</p>
+                        <input type="checkbox" id="type9">
+                    </div>
+                    <div>
+                        <p>遊戲</p>
+                        <input type="checkbox" id="type10">
+                    </div>
+                    <div>
+                        <p>數據分析 & AI</p>
+                        <input type="checkbox" id="type11">
+                    </div>
+                    <div>
+                        <p>資安</p>
+                        <input type="checkbox" id="type12">
+                    </div>
+                    <div>
+                        <p>開發</p>
+                        <input type="checkbox" id="type13">
+                    </div>
+                    <div>
+                        <p>Linux</p>
+                        <input type="checkbox" id="type14">
+                    </div>
+                    <div>
+                        <p>硬體</p>
+                        <input type="checkbox" id="type15">
+                    </div>
+                    <div>
+                        <p>社群</p>
+                        <input type="checkbox" id="type16">
+                    </div>
+                    <div>
+                        <p>網路</p>
+                        <input type="checkbox" id="type17">
+                    </div>
+
+                </div>
+
+                <div class="timeCheck">
+                    <p>時間(YYYY-MM-DD 24h:60m)：</p>
+                    <input type="text" id="minTime">
+                    <p>~</p><input type="text" id="maxTime">
+                </div>
+
+                <div class="feeCheck">
+                    <p>費用：</p>
+                    <input type="number" id="minFee">
+                    <p>~</p><input type="number" id="maxFee">
+                </div>
+
+                <div class="attendCheck">
+                    <p>參加人數：</p>
+                    <input type="number" id="minPeople">
+                    <p>~</p><input type="number" id="maxPeople">
+                </div>
+
+                <!--  -->
+                <button type="submit" name="button" id="submitBtn">Find !</button>
+
+            </form>
+        </div>
+
+        <div class="githubBox">
+            <a href="https://github.com/fate412460/EventsSearch" target="_blank">GitHub</a>
+        </div>
+
+        <script src="jquery-3.1.1/jquery-3.1.1.min.js"></script>
+        <script src="mainDeploy.js"></script>
+
+    </body>
+
+</html>

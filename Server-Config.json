@@ -1,0 +1,23 @@
+{
+    "Mode":"Develop-Mode",
+
+    "Develop-Mode":{
+        "DB-Host-URL":"mongodb://localhost:27017/Events-Mongo-Database",
+        "DB-Connect-URL":"mongodb://localhost:27017/Events-Mongo-Database",
+        "Front-End-Listen-IP":"localhost",
+        "Front-End-Listen-Port":8080,
+        "Allow-Front-End-Origin":"http://localhost/",
+        "Front-End-POST-URL":"http://localhost:8080/",
+        "Back-End-Listen-POST-Path":"/"
+    },
+
+    "Deploy-Mode":{
+        "DB-Host-URL":"mongodb://localhost:27017/Events-Mongo-Database",
+        "DB-Connect-URL":"mongodb://localhost:27017/Events-Mongo-Database",
+        "Front-End-Listen-IP":"192.168.1.6",
+        "Front-End-Listen-Port":8080,
+        "Allow-Front-End-Origin":"http://140.116.250.18/",
+        "Front-End-POST-URL":"http://140.116.250.18:80",
+        "Back-End-Listen-POST-Path":"/"
+    }
+}
