@@ -1,5 +1,6 @@
 header.top {
 	padding: 0;
+	display: flex;
 }
 
 header.top div.headerLeft {
@@ -7,6 +8,7 @@ header.top div.headerLeft {
 	/*45px*/
 	display: flex;
 	align-items: center;
+	width: 49%;
 }
 
 header.top div.headerLeft div.logoBox {
@@ -47,6 +49,7 @@ header.top div.headerRight {
 	align-items: center;
 	justify-content: flex-end;
 	height: 11.5vw;
+	width: 49%;
 }
 
 header.top div.headerRight a {

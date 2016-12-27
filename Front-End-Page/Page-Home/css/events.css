@@ -1,7 +1,8 @@
 section.events {
 	border-top: 1px solid #141414;
 	position: relative;
-	padding-bottom: 10px;
+	padding-bottom: 0.64vw;
+	/*10px*/
 }
 
 section.events div.backgroundWords {
@@ -34,13 +35,22 @@ section.events div.last {
 	border-bottom: 1px solid #1c1c1c;
 }
 
+section.events div.new {
+	opacity: 1 !important;
+}
+
 section.events div.eventBox {
+	opacity: 0.3;
 	border-top: 1px solid #1c1c1c;
-	margin-left: 125px;
-	margin-right: 125px;
+	margin-left: 8.5vw;
+	/*125px*/
+	margin-right: 8.5vw;
+	/*125px*/
 	display: flex;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 3.75vw;
+	/*50px*/
+	padding-bottom: 3.75vw;
+	/*50px*/
 }
 
 section.events div.eventBox div.eventInfo {
@@ -54,30 +64,35 @@ section.events div.eventBox div.eventInfo {
 section.events div.eventBox div.eventInfo p.eventPlace {
 	font-family: "Noto Sans TC";
 	margin-bottom: 5px;
-	font-size: 20px;
+	font-size: 1.5vw;
+	/*20px*/
 	letter-spacing: 1px;
 	color: #999;
-	padding-top: 10px;
+	padding-top: 0.32vw;
+	/*5px*/
 }
 
 section.events div.eventBox div.eventInfo p.eventTime {
 	font-family: "Noto Sans TC";
 	margin-bottom: 0;
-	font-size: 17px;
+	font-size: 1.35vw;
+	/*17px*/
 	color: #3c3c3c;
 }
 
 section.events div.eventBox div.eventName {
-	font-family: "Noto Sans CJK TC";
+	font-family: "Noto Sans TC";
 	width: 75%;
 	display: flex;
 	flex-direction: column;
-	padding-left: 45px;
+	padding-left: 3.5vw;
+	/*45px*/
 }
 
 section.events div.eventBox div.eventName div.name {
-	font-family: "Helvetica","Noto Sans CJK TC";
-	font-size: 37.5px;
+	font-family: "Helvetica","Noto Sans TC Bold";
+	font-size: 2.85vw;
+	/*37.5px*/
 	color: white;
 	letter-spacing: 1px;
 	font-weight: 700;
@@ -85,7 +100,8 @@ section.events div.eventBox div.eventName div.name {
 
 section.events div.eventBox div.eventName a.url {
 	color: #c0a062;
-	font-family: "Noto Sans CJK TC";
-	font-size: 20px;
+	font-family: "Noto Sans TC";
+	font-size: 1.5vw;
+	/*20px*/
 	text-decoration: none;
 }

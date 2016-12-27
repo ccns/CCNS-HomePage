@@ -1,5 +1,5 @@
 {
-    "Mode":"Deploy-Mode",
+    "Mode":"Develop-Mode",
 
     "Develop-Mode":{
         "DB-Host-URL":"mongodb://localhost:27017/Events-Mongo-Database",
